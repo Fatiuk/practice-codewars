@@ -10,5 +10,8 @@ function narcissistic(value) {
     return acc + Math.pow(parseInt(digit), numberDigits);
   }, 0);
   console.log(numberNarcissistic);
+  // Chek is narcissistic number or No
+  return value === numberNarcissistic;
 }
+
 narcissistic(153);
