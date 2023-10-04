@@ -11,6 +11,7 @@ function narcissistic(value) {
   }, 0);
   console.log(numberNarcissistic);
   // Chek is narcissistic number or No
+  console.log(value === numberNarcissistic);
   return value === numberNarcissistic;
 }
 
